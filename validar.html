@@ -1,0 +1,42 @@
+<div>
+    <h1>Ejemplo de Validacion</h1>
+</div>
+<div>
+    <div class="container">
+        <h3>Login</h3>
+        <form method="post" action="validar.json" id="formulario">
+            <input type="email" class="form-control" name="email" placeholder="Correo electronico" id="email">
+            <p id="errormensajeid" style="color: red; display:none;">Error Correo</p>
+            <input type="password" class="form-control" name="password" placeholder="Clave" id="password">
+            <p id="errormensajenombre" style="color: red; display:none;">Error Contraseña</p>
+            <input class="boton" type="submit" class="btn btn-primary" name="Aceptar">
+        </form>
+    </div>
+   
+    
+</div>
+<script>
+    document.getElementById('formulario').addEventListener('submit' ,function(event){
+        event.preventDefault(); //no permite que el formulario se envie
+        var email = document.getElementById('email').value;
+        var password = document.getElementById('password').value;
+        var errormensajeemail=document.getElementById('errormensajeemail');
+        var errormensajepassword=document.getElementById('errormensajepassword');
+        var idValida=/^ID-\d{6}$/;
+        if (idValida.test(email)) {
+            errormensajeid.style.display='none';
+            alert('email valido')
+        }
+        else {
+            errormensajeid.style.display='block';
+        }
+        var nombreValida=/^ID-\d{6}$/;
+        if (nombreValida.test(password)) {
+            errormensajenombre.style.display='none';
+            alert('password valido')
+        }
+        else {
+            errormensajepassword.style.display='block';
+        }
+    })
+</script>

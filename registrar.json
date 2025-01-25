@@ -1,0 +1,15 @@
+{
+    
+    "administrador":{
+        "ci":4567893,
+        "Nombre":"Juan",
+        "a_paterno":"Colque",
+        "a_materno":"martin",
+        "telefono":745748570,
+        "correo":"fet@45.com",
+        "clave":12345,
+        "rol":"<option value='Administrador'>Administrador<br> <option value='Cliente'>Cliente<br> <option value='invitado'>Invitado<br> "
+    
+    },
+    "link":"FormularioPreferencia.html"
+}

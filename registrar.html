@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <!-- Bootstrap CSS --> 
+  <link 
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-
+  EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+  
+	<title>Usuarios</title>
+</head>
+
+<body class="bg-succes justify-content-center">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+	
+     <form method="post" action="registar.json">
+
+	 <div class="container-sm" > 
+         <div class="row"> 
+             <div class="col-lg-4" style="background-color:rgb(115, 120, 121)">
+                 <div class="mb-3">
+				 <label>DATOS DE USUARIO</label><br><br> 
+				  
+                      Ci:<input type="text" placeholder="Carnet de Identidad" required="" name="ci"><br><br>
+		              Nombre:<input type="text" placeholder="Nombre usuario" required="" name="nombre"><br><br>
+					  A_Paterno:<input type="text" placeholder="a_paterno" required="" name="a_paterno"><br><br>
+					  A_Materno:<input type="text" placeholder="a_materno" required="" name="a_materno"><br><br>
+	
+		Rol<select name="rol">
+					<option value="Encargado">Administrador<br>
+					<option value="Administrador" >Cliente<br>
+                    <option value="Administrador" >Invitado<br><br>
+			</select><br><br>
+		Telefono:<input type="text" placeholder="telefono" required="" name="telefono"><br><br>
+		Direccion:<input type="text" placeholder="direccion" required="" name="direccion"><br><br>
+		Correo:<input type="email" placeholder="Email" required="" name="email"><br><br>
+		Clave:<input type="password" placeholder="Contraseña" required="" name="password"><br><br>
+		
+	
+		<input type="submit"  name="Insertar" value="Insertar">
+		<input type="submit"  name="cancelar" value="cancelar">
+	</form>
+
+    <script>
+        const xhr=new XMLHttpRequest();
+        xhr.open("GET", "registrar.json", true);
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                const menuitems = JSON.parse(xhr.responseText);
+                let menuHTML="";
+
+                menuitems.forEach(item => {
+                    menuHTML+=`
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="${item.link}">${item.nombre}</a>
+                        </li>
+                        `;
+                }); 
+
+                document.getElementById("menu").innerHTML=menuHTML;
+            }
+            else {
+                console.error("Error");
+            }
+        };
+        xhr.send();
+    </script>
+
+
+</body>
+</html>

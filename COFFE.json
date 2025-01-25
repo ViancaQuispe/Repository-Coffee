@@ -1,0 +1,26 @@
+[
+    {
+        "tipocafe": "expreso",
+        "preferencialeche": "entera",
+        "niveldulzura": "sin azucar",
+        "toppings": "canela"
+    },
+    {
+        "tipocafe": "americano",
+        "preferencialeche": "vegetal",
+        "niveldulzura": "poco",
+        "toppings": "chocolate"
+    },
+    {
+        "tipocafe": "latte",
+        "preferencialeche": "vegetal",
+        "niveldulzura": "medio",
+        "toppiings": "canela"
+    },
+    {
+        "tipocafe": "frapuchino",
+        "preferencialeche": "sin lactosa",
+        "niveldulzura": "mucho",
+        "toppings": "chocolate"
+    }
+]

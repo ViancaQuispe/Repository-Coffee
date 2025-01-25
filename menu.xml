@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <item>
+        <nombre>
+            <es></es>
+            <en></en>
+        </nombre>
+      
+    </item>
+    <item>
+        <nombre>
+            <es>Inicio</es>
+            <en>Home</en>
+        </nombre>
+       <subnombre>
+                <es>Descripción del calculador de preferencias</es>
+                <en>Description of the preference calculator</en>
+            </subnombre>
+            <enlace>descripcion.html</enlace>
+            <subnombre>
+            <es>Beneficios de conocer los gustos del café</es>
+                <en>Benefits of knowing the tastes of coffee</en>
+            </subnombre>
+            <enlace>beneficios.html</enlace>
+            <subnombre>
+                <es>Cómo funciona el calculador</es>
+                <en>How the calculator works</en>
+            </subnombre>
+            <enlace>funcion.html</enlace>
+            <subnombre>
+                <es>Preguntas frecuentes</es>
+                <en>Frequently Asked Questions</en>
+            </subnombre>
+            <enlace>faq.html</enlace>
+    </item>
+
+
+  
+    <item>
+        <nombre>
+            <es>Formulario Preferencia </es>
+            <en>Preference form</en>
+        </nombre>
+            <subnombre>
+                <es>Tipo de cafe favorito</es>
+                <en>Favorite type of coffee</en>
+            </subnombre>
+            <enlace>formulario.html</enlace>
+   </item>
+   <item> 
+        <nombre>
+            <es>Recomendaciones de Café</es>
+            <en>Coffee Recommendations</en>
+        </nombre>
+            <subnombre>
+                <es>Sugerencias de cafés según tus preferencias</es>
+                <en>Coffee suggestions according to your preferences</en>
+            </subnombre>
+            <enlace>sugerencia.html</enlace>
+            <subnombre>
+                <es>Recetas populares de cafés</es>
+                <en>Popular coffee recipes</en>
+            </subnombre>
+            <enlace>recetas.html</enlace>
+            <subnombre>
+                <es>Información sobre orígenes y variedades de café</es>
+                <en>Information on coffee origins and varieties</en>
+            </subnombre>
+            <enlace>informacion.html</enlace>
+            <subnombre>
+                <es>Consejos sobre la preparación de café en casa</es>
+                <en>Tips on making coffee at home</en>
+            </subnombre>
+            <enlace>consejos.html</enlace>
+    </item>
+    <item>
+        <nombre>
+             <es>Comunidad</es>
+            <en>Community</en>
+        </nombre>
+            <subnombre>
+                <es>Foros sobre cafés favoritos y recomendaciones</es>
+                <en>Forums about favorite coffees and recommendations</en>
+            </subnombre>
+            <enlace>foro.html</enlace>
+            <subnombre>
+                <es>Encuentros de cata de cafés</es>
+                <en> Coffee tasting meetings</en>
+            </subnombre>
+            <enlace>encuentros.html</enlace>
+            <subnombre>
+                <es>Recomendaciones sobre cafeterías locales</es>
+                <en>Recommendations for local coffee shops</en>
+            </subnombre>
+            <enlace>recomendacion.html</enlace>
+            <subnombre>
+                <es>Consejos de expertos sobre la preparación perfecta de café</es>
+                <en>Expert tips on perfect coffee preparation</en>
+            </subnombre>
+            <enlace>consejo.html</enlace>
+    </item>
+    <item>
+        <nombre>
+           <es>Extras</es>
+            <en>Extras</en>
+        </nombre>
+            <subnombre>
+                <es>Videos sobre la cultura del café</es>
+                <en>Videos about coffee culture</en>
+            </subnombre>
+            <enlace>videos.html</enlace>
+            <subnombre>
+                <es>Artículos sobre las mejores marcas de café</es>
+                <en>Articles about the best coffee brands</en>
+            </subnombre>
+            <enlace>articulos.html</enlace>
+            <subnombre>
+                <es>Guías sobre cómo hacer café en diferentes estilos</es>
+                <en>Guides on how to make coffee in different styles</en>
+            </subnombre>
+            <enlace>guias.html</enlace>
+            <subnombre>
+                <es>Consejos para elegir la mejor cafetera</es>
+                <en>Tips for choosing the best coffee maker</en>
+            </subnombre>
+            <enlace>cafetera.html</enlace>
+    </item>
+    <item>
+       <nombre>
+            <es>FAQ</es>
+            <en>FAQ</en>
+        </nombre>
+            <subnombre>
+                <es>¿Puedo guardar mis preferencias de café?</es>
+                <en>Can I save my coffee preferences?</en>
+            </subnombre>
+            <enlace>guardar.html</enlace>
+            <subnombre>
+                <es>¿Cómo cambiar mis opciones de café?</es>
+                <en>How do I change my coffee options?</en>
+            </subnombre>
+            <enlace>cambiar.html</enlace>
+            <subnombre>
+                <es>¿Cómo compartir mis preferencias?</es>
+                <en>How do I share my preferences?</en>
+            </subnombre>
+            <enlace>compartir.html</enlace>
+            <subnombre>
+                <es>Contactar soporte</es>
+                <en>Contact support</en>
+            </subnombre>
+            <enlace>contactar.html</enlace>
+    </item>
+    <item>
+        <nombre>
+            <es>Contacto</es>
+            <en>Contact</en>
+        </nombre>
+            <subnombre>
+                <es>Formulario de contacto</es>
+                <en>Contact form</en>
+            </subnombre>
+            <enlace>formcontacto.html</enlace>
+            <subnombre>
+                <es>Redes sociales</es>
+                <en>Social networks</en>
+            </subnombre>
+            <enlace>redes.html</enlace>
+            <subnombre>
+                <es>Feedback y sugerencias</es>
+                <en>Feedback and suggestions</en>
+            </subnombre>
+            <enlace>feedback.html</enlace>    
+    </item>
+    <lenguajes>
+        <es>Español</es>
+        <en>Ingles</en>
+    </lenguajes>
+</menu>

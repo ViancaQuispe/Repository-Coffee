@@ -1,0 +1,20 @@
+{
+    "validar":{
+        "administrador":{
+            "correo":"fet@45.com",
+            "clave":12345,
+        "link":"FormularioPreferencia.html"
+        },
+        "cliente":{
+            "correo":"fet@45.com",
+            "clave":12345,
+            "link":"FormularioPreferencia.html"
+        },
+        "invitado":{
+            "correo":"fet@45.com",
+            "clave":12345,
+            "link":"FormularioPreferencia.html"
+        }
+
+    }
+}
